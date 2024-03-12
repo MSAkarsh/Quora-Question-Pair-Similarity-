@@ -1,50 +1,55 @@
-# Quora-Question-Pair-Similarity-
+# Quora-Question-Pair-Similarity
+Machine Learning 
 
-Quora-Question-Pair-Similarity
-Machine Learning
+## Problem Statement
 
-Problem Statement
-dentify which questions asked on Quora are duplicates of questions that have already been asked.
+- dentify which questions asked on Quora are duplicates of questions that have already been asked.
 
-This could be useful to instantly provide answers to questions that have already been answered.
+- This could be useful to instantly provide answers to questions that have already been answered.
 
-We are tasked with predicting whether a pair of questions are duplicates or not.
+- We are tasked with predicting whether a pair of questions are duplicates or not.
 
-Real world/Business Objectives and Constraints
-The cost of a mis-classification can be very high.
+## Real world/Business Objectives and Constraints  
 
-You would want a probability of a pair of questions to be duplicates so that you can choose any threshold of choice.
+- The cost of a mis-classification can be very high.
 
-No strict latency concerns.
+- You would want a probability of a pair of questions to be duplicates so that you can choose any threshold of choice.
 
-Interpretability is partially important.
+- No strict latency concerns.
 
-Data Overview
-Data will be in a file Train.csv
+- Interpretability is partially important.
 
-Train.csv contains 5 columns : qid1, qid2, question1, question2, is_duplicate
+## Data Overview 
+- Data will be in a file Train.csv
 
-Size of Train.csv - 60MB
+- Train.csv contains 5 columns : qid1, qid2, question1, question2, is_duplicate
 
-Number of rows in Train.csv = 404,290
+- Size of Train.csv - 60MB
 
-Performance Metric
-Source: https://www.kaggle.com/c/quora-question-pairs#evaluation
-Metric(s)
-log-loss : https://www.kaggle.com/wiki/LogarithmicLoss
+- Number of rows in Train.csv = 404,290
 
-Binary Confusion Matrix
+## Performance Metric 
 
-Machine Learning Models
-image
+- Source: https://www.kaggle.com/c/quora-question-pairs#evaluation
 
-Sources/Useful Links
-Source : https://www.kaggle.com/c/quora-question-pairs
+## Metric(s)
 
-Discussions : https://www.kaggle.com/anokas/data-analysis-xgboost-starter-0-35460-lb/comments
+- log-loss : https://www.kaggle.com/wiki/LogarithmicLoss
 
-Kaggle Winning Solution and other approaches: https://www.dropbox.com/sh/93968nfnrzh8bp5/AACZdtsApc1QSTQc7X0H3QZ5a?dl=0
+- Binary Confusion Matrix
 
-Blog 1 : https://engineering.quora.com/Semantic-Question-Matching-with-Deep-Learning
+## Machine Learning Models
 
-Blog 2 : https://towardsdatascience.com/identifying-duplicate-questions-on-quora-top-12-on-kaggle-4c1cf93f1c30
+![image](https://user-images.githubusercontent.com/114361354/192164622-8e4de616-7987-4e3e-83b9-97625b29018f.png)
+
+ ## Sources/Useful Links
+
+- Source : https://www.kaggle.com/c/quora-question-pairs
+
+- Discussions : https://www.kaggle.com/anokas/data-analysis-xgboost-starter-0-35460-lb/comments
+
+- Kaggle Winning Solution and other approaches: https://www.dropbox.com/sh/93968nfnrzh8bp5/AACZdtsApc1QSTQc7X0H3QZ5a?dl=0
+
+- Blog 1 : https://engineering.quora.com/Semantic-Question-Matching-with-Deep-Learning
+
+- Blog 2 : https://towardsdatascience.com/identifying-duplicate-questions-on-quora-top-12-on-kaggle-4c1cf93f1c30
